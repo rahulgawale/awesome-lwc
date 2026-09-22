@@ -252,7 +252,7 @@ I am individually not focusing too hard on LWC OSS right now, but I don't want t
 -   [LWC OSS Storybook](https://github.com/reiniergs/lwc-storybooks-poc)
 -   [Fandry UI](https://github.com/rahulgawale/fandryui) (Rahul Gawale, [@rahulgawale](https://github.com/rahulgawale))
 
-    An opinionated, extensible UI foundation built from scratch with native LWC, **works on both LWC OSS (LWR) and the Salesforce platform from the same source tree** — `npm install fandryui` for LWR/LWC OSS, and a generated `c-fandry*` flavor for Salesforce (`@tanstack/table-core` vendored so nothing depends on npm packages on-platform). It's organized as small, boring primitives (buttons, inputs, popovers, tables, ...) plus installable "blocks" (a data table with search/filters/inline-edit) composed only from those primitives. Design tokens instead of hard-coded values, slots and composition instead of flag-heavy config, and normalized `input`/`change`/`focus`/`blur` events instead of a black-box API. A `fandry add <component>` CLI copies primitive source straight into a project so consumers own and can read every line, rather than depend on an opaque package.
+   FandryUI is shadcn styled LWC component library for both LWR OSS and Salesforce platform. It runs via a CLI (eg fandry add) that copies component source code straight into your project so you own the code. It provides no-black-box components for LWC that can be modified and extended easily.
 
 ---
 
